@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://github.com/gabortorma/mwm-nuxt-layer-template",
   "repository": {
-    "type": "git",
+    "type": "github",
     "url": "git+ssh://git@github.com/gabortorma/mwm-nuxt-layer-template.git"
   },
   "bugs": "https://github.com/gabortorma/mwm-nuxt-layer-template/issues",
