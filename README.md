@@ -1,16 +1,16 @@
-# MWM Nuxt Layer template
+# mwm-nuxt-layer-template
 
 ## Install
 
 ```bash
-pnpm add -D +@gabortorma/mwm-nuxt-layer-template
+pnpm add -D @gabortorma/mwm-nuxt-layer-template
 ```
 
 ## Usage
 
-Then add the dependency to their `extends` in `nuxt.config`:
+Add the dependency to `extends` in your `nuxt.config`:
 
-```js
+```ts
 defineNuxtConfig({
   extends: [
     '@gabortorma/mwm-nuxt-layer-template'
