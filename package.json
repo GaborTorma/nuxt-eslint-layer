@@ -1,16 +1,17 @@
 {
-  "name": "@gabortorma/mwm-nuxt-layer-template",
+  "name": "@gabortorma/nuxt-eslint-layer",
   "type": "module",
-  "version": "0.0.8",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
-  "author": "gabortorma",
+  "description": "Preconfigured eslint for Nuxt 3",
+  "author": "GaborTorma",
   "license": "MIT",
-  "homepage": "https://github.com/gabortorma/mwm-nuxt-layer-template",
+  "homepage": "https://github.com/GaborTorma/nuxt-eslint-layer",
   "repository": {
     "type": "github",
-    "url": "git+ssh://git@github.com/gabortorma/mwm-nuxt-layer-template.git"
+    "url": "git+ssh://git@github.com/GaborTorma/nuxt-eslint-layer.git"
   },
-  "bugs": "https://github.com/gabortorma/mwm-nuxt-layer-template/issues",
+  "bugs": "https://github.com/GaborTorma/nuxt-eslint-layer/issues",
   "publishConfig": {
     "access": "public"
   },
