@@ -35,8 +35,8 @@
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@gabortorma/antfu-eslint-config": "^1.5.1",
-    "@gabortorma/mwm": "^0.8.2",
+    "@gabortorma/antfu-eslint-config": "^1.5.2",
+    "@gabortorma/mwm": "^0.8.3",
     "@types/node": "^22.5.5",
     "dotenv-cli": "^7.4.2",
     "release-it": "^17.6.0",
