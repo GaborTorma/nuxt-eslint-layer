@@ -1,0 +1,2 @@
+typescript.includeWorkspace = true
+typescript.tsConfig.include.0 = ../../.release-it.ts

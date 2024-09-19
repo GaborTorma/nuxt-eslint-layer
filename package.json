@@ -1,0 +1,45 @@
+{
+  "name": "@gabortorma/mwm-nuxt-layer-template",
+  "type": "module",
+  "version": "0.0.8",
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
+  "author": "gabortorma",
+  "license": "MIT",
+  "homepage": "https://github.com/gabortorma/mwm-nuxt-layer-template",
+  "repository": {
+    "type": "github",
+    "url": "git+ssh://git@github.com/gabortorma/mwm-nuxt-layer-template.git"
+  },
+  "bugs": "https://github.com/gabortorma/mwm-nuxt-layer-template/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nuxt",
+    "layer"
+  ],
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "dev:build": "nuxi build .playground",
+    "dev:prepare": "nuxt prepare .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "dotenv release-it",
+    "postinstall": "pnpm dev:prepare"
+  },
+  "peerDependencies": {
+    "nuxt": "^3.12.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@gabortorma/antfu-eslint-config": "^1.5.2",
+    "@gabortorma/mwm": "^0.8.3",
+    "@types/node": "^22.5.5",
+    "dotenv-cli": "^7.4.2",
+    "release-it": "^17.6.0",
+    "typescript": "^5.6.2"
+  }
+}
