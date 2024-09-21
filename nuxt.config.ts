@@ -1,7 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-09-17',
-  future: {
-    compatibilityVersion: 4,
+  compatibilityDate: '2024-09-19',
+
+  modules: [
+    '@nuxt/eslint',
+  ],
+
+  eslint: {
+    checker: true,
+    config: {
+      standalone: false,
+    },
   },
 })
