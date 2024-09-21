@@ -9,8 +9,11 @@ importers:
   .:
     dependencies:
       '@gabortorma/antfu-eslint-config':
-        specifier: ^1.7.4
-        version: 1.7.4(@types/eslint@9.6.1)(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(jiti@1.21.6)(magicast@0.3.5)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))(webpack-sources@3.2.3)
+        specifier: ^2.0.1
+        version: 2.0.1(@types/eslint@9.6.1)(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(jiti@1.21.6)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))
+      '@nuxt/eslint':
+        specifier: 0.5.7
+        version: 0.5.7(eslint@9.11.0(jiti@1.21.6))(magicast@0.3.5)(rollup@4.22.4)(typescript@5.6.2)(vite-plugin-eslint2@4.4.1(@types/eslint@9.6.1)(eslint@9.11.0(jiti@1.21.6))(rollup@4.22.4)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0)))(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))(webpack-sources@3.2.3)
       nuxt:
         specifier: ^3.12.0
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.5.5)(eslint@9.11.0(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.22.4)(terser@5.33.0)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))(webpack-sources@3.2.3)
@@ -19,8 +22,8 @@ importers:
         version: 3.5.7(typescript@5.6.2)
     devDependencies:
       '@gabortorma/mwm':
-        specifier: ^0.8.4
-        version: 0.8.4(magicast@0.3.5)(typescript@5.6.2)
+        specifier: ^0.8.5
+        version: 0.8.5(magicast@0.3.5)(typescript@5.6.2)
       '@types/node':
         specifier: ^22.5.5
         version: 22.5.5
@@ -749,11 +752,11 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@gabortorma/antfu-eslint-config@1.7.4':
-    resolution: {integrity: sha512-v8KHk6wlplY1eLGqnt9IRo5pZYKFAWH/ofuknhdmhItZut91XVyUyo0jG69SBwXWDTgHD0AtVWn8yEPbrXgtWg==}
+  '@gabortorma/antfu-eslint-config@2.0.1':
+    resolution: {integrity: sha512-yz2qJoatWn8xytEYriC42K830IktmhvcoZPUJlfz8Ha6msJYvhAvLaA+ggZzvf0Egk1EkwVQrMLSrwomqjhIBA==}
 
-  '@gabortorma/mwm@0.8.4':
-    resolution: {integrity: sha512-iCZB1WAYMpVYVWkrolbxXLpypzZSVWtpo+TVshADzO27lubxC/S6o3t3MjY2l/roRDhBTWba/Z+c45CeSabilA==}
+  '@gabortorma/mwm@0.8.5':
+    resolution: {integrity: sha512-5UcAd9M+4O9n0k3LKVesAAz0F50bW5pnVrecpMiNnFTLJfYOCK3a90SvbxLDr0RRvDDcdVZEOuPmRTuiPxG/oQ==}
     hasBin: true
 
   '@humanwhocodes/module-importer@1.0.1':
@@ -5657,10 +5660,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@gabortorma/antfu-eslint-config@1.7.4(@types/eslint@9.6.1)(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(jiti@1.21.6)(magicast@0.3.5)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))(webpack-sources@3.2.3)':
+  '@gabortorma/antfu-eslint-config@2.0.1(@types/eslint@9.6.1)(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(jiti@1.21.6)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))':
     dependencies:
       '@antfu/eslint-config': 3.7.1(@typescript-eslint/utils@8.6.0(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2))(@vue/compiler-sfc@3.5.7)(eslint-plugin-format@0.1.2(eslint@9.11.0(jiti@1.21.6)))(eslint@9.11.0(jiti@1.21.6))(typescript@5.6.2)
-      '@nuxt/eslint': 0.5.7(eslint@9.11.0(jiti@1.21.6))(magicast@0.3.5)(rollup@4.22.4)(typescript@5.6.2)(vite-plugin-eslint2@4.4.1(@types/eslint@9.6.1)(eslint@9.11.0(jiti@1.21.6))(rollup@4.22.4)(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0)))(vite@5.4.7(@types/node@22.5.5)(terser@5.33.0))(webpack-sources@3.2.3)
       defu: 6.1.4
       eslint: 9.11.0(jiti@1.21.6)
       eslint-plugin-format: 0.1.2(eslint@9.11.0(jiti@1.21.6))
@@ -5674,15 +5676,12 @@ snapshots:
       - '@unocss/eslint-plugin'
       - '@vue/compiler-sfc'
       - astro-eslint-parser
-      - bufferutil
       - eslint-plugin-astro
       - eslint-plugin-react-hooks
       - eslint-plugin-react-refresh
       - eslint-plugin-solid
       - eslint-plugin-svelte
-      - eslint-webpack-plugin
       - jiti
-      - magicast
       - prettier-plugin-astro
       - prettier-plugin-slidev
       - rollup
@@ -5690,13 +5689,10 @@ snapshots:
       - svelte
       - svelte-eslint-parser
       - typescript
-      - uWebSockets.js
-      - utf-8-validate
       - vite
       - vitest
-      - webpack-sources
 
-  '@gabortorma/mwm@0.8.4(magicast@0.3.5)(typescript@5.6.2)':
+  '@gabortorma/mwm@0.8.5(magicast@0.3.5)(typescript@5.6.2)':
     dependencies:
       '@octokit/rest': 21.0.2
       c12: 1.11.2(magicast@0.3.5)
