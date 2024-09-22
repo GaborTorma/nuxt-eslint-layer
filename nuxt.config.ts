@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   eslint: {
     checker: true,
     config: {
-      standalone: false,
+      standalone: false, // https://eslint.nuxt.com/packages/module#custom-config-presets
     },
   },
 })
