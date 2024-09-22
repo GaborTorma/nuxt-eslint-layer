@@ -22,14 +22,13 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi dev .playground",
-    "dev:build": "nuxi build .playground",
-    "dev:prepare": "nuxt prepare .playground",
+    "build": "nuxi build .playground",
+    "prepare": "nuxt prepare .playground",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "dotenv release-it",
-    "postinstall": "pnpm dev:prepare"
+    "release": "dotenv release-it"
   },
   "peerDependencies": {
     "nuxt": "^3.12.0",
