@@ -37,14 +37,14 @@
     "vue": "^3.4.0"
   },
   "dependencies": {
-    "@gabortorma/antfu-eslint-config": "^2.0.2",
+    "@gabortorma/antfu-eslint-config": "^2.0.4",
     "@nuxt/eslint": "0.5.7",
     "vite-plugin-eslint2": "4.4.1",
     "vue-tsc": "^2.1.6"
   },
   "devDependencies": {
     "@gabortorma/mwm": "^0.8.8",
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.6.1",
     "dotenv-cli": "^7.4.2",
     "nuxi": "^3.13.2",
     "release-it": "^17.6.0",
