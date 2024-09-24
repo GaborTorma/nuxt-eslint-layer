@@ -28,6 +28,7 @@
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "test:types": "vue-tsc --noEmit",
     "release": "dotenv release-it"
   },
   "peerDependencies": {
@@ -37,7 +38,8 @@
   "dependencies": {
     "@gabortorma/antfu-eslint-config": "^2.0.2",
     "@nuxt/eslint": "0.5.7",
-    "vite-plugin-eslint2": "4.4.1"
+    "vite-plugin-eslint2": "4.4.1",
+    "vue-tsc": "^2.1.6"
   },
   "devDependencies": {
     "@gabortorma/mwm": "^0.8.8",
