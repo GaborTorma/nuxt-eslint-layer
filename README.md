@@ -7,8 +7,6 @@
 
 Preconfigured eslint for Nuxt 3
 
-[🏀 Online playground](https://stackblitz.com/github/gabortorma/nuxt-eslint-layer?file=playground%2Fapp.vue)
-
 ## Install
 
 ```bash
@@ -26,6 +24,10 @@ defineNuxtConfig({
   ]
 })
 ```
+
+### Dependencies
+
+Other necessary dependencies will be installed automatically.
 
 <!-- Badges -->
 
