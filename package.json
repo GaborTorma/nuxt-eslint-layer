@@ -17,7 +17,8 @@
   },
   "keywords": [
     "nuxt",
-    "layer"
+    "layer",
+    "eslint"
   ],
   "main": "./nuxt.config.ts",
   "scripts": {
