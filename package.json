@@ -2,7 +2,7 @@
   "name": "@gabortorma/nuxt-eslint-layer",
   "type": "module",
   "version": "0.2.5",
-  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "description": "Preconfigured eslint for Nuxt 3",
   "author": "GaborTorma",
   "license": "MIT",
@@ -39,6 +39,7 @@
   "dependencies": {
     "@gabortorma/antfu-eslint-config": "^2.1.1",
     "@nuxt/eslint": "0.6.1",
+    "@typescript-eslint/utils": "^8.12.2",
     "@vue/compiler-sfc": "^3.5.12",
     "vite-plugin-eslint2": "5.0.1",
     "vue-tsc": "^2.1.10"
