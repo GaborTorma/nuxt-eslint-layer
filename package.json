@@ -37,19 +37,19 @@
     "vue": "^3.4.0"
   },
   "dependencies": {
-    "@gabortorma/antfu-eslint-config": "^2.2.0",
-    "@nuxt/eslint": "0.7.0",
-    "@typescript-eslint/utils": "^8.14.0",
+    "@gabortorma/antfu-eslint-config": "^2.3.1",
+    "@nuxt/eslint": "0.7.2",
+    "@typescript-eslint/utils": "^8.16.0",
     "@vue/compiler-sfc": "^3.5.13",
     "vite-plugin-eslint2": "5.0.2",
     "vue-tsc": "^2.1.10"
   },
   "devDependencies": {
     "@gabortorma/mwm": "^0.8.12",
-    "@types/node": "^22.9.0",
-    "dotenv-cli": "^7.4.2",
+    "@types/node": "^22.10.0",
+    "dotenv-cli": "^7.4.4",
     "nuxi": "^3.15.0",
     "release-it": "^17.10.0",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
   }
 }
