@@ -9,8 +9,7 @@
       "request": "launch",
       "name": "client: chrome",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}/.playground",
-      "userDataDir": false
+      "webRoot": "${workspaceFolder}/.playground"
     },
     {
       "type": "node-terminal",
