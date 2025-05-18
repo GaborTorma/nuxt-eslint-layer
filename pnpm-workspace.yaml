@@ -1,3 +1,19 @@
+catalog:
+  '@gabortorma/antfu-eslint-config': ^3.1.1
+  '@gabortorma/mwm': ^0.9.3
+  '@nuxt/eslint': 1.4.0
+  '@types/node': ^22.15.18
+  '@typescript-eslint/utils': ^8.32.1
+  '@vue/compiler-sfc': ^3.5.14
+  dotenv-cli: ^8.0.0
+  nuxi: ^3.25.1
+  nuxt: ^3.17.3
+  release-it: ^19.0.2
+  release-it-pnpm: ^4.6.5
+  typescript: 5.8.3
+  vite-plugin-eslint2: 5.0.3
+  vue: ^3.5.14
+  vue-tsc: 2.2.10
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
