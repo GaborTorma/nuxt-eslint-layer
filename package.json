@@ -1,7 +1,7 @@
 {
   "name": "@gabortorma/nuxt-eslint-layer",
   "type": "module",
-  "version": "0.5.3",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.13.1",
   "description": "Preconfigured eslint for Nuxt 3",
   "author": "GaborTorma",
